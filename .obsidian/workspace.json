@@ -8,33 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "655f4db2f069ca69",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "9cd9a4520217e943",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Python/Dynamicznie typowany język.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Dynamicznie typowany język"
             }
           }
         ]
@@ -222,13 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "655f4db2f069ca69",
+  "active": "cf23415cf560a592",
   "lastOpenFiles": [
-    "2025-11-26.md",
-    "Untitled.base",
-    "Untitled 1.canvas",
-    "Python/Dynamicznie typowany język.md",
     "Untitled.canvas",
+    "Python/Dynamicznie typowany język.md",
+    "Untitled.base",
+    "2025-11-26.md",
+    "Untitled 1.canvas",
     "Pasted image 20251126085926.png",
     "Python",
     "słabe typowanie.md",
