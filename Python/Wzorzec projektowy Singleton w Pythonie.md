@@ -98,11 +98,10 @@ Dlaczego?
 ### 🗃 Keyword Connections (powiązania)
 
 - [[creational pattern]]
-    
 - [[design patterns]]
-    
 - [[global state]]
-    
+ - [[__new__]]
+ - [[__init__]]
 
 
 ---
@@ -130,26 +129,56 @@ Dlaczego?
 ## ✨ Metoda Feynmana (1–2 zdania)
 
 
+Singleton to jak pudełko z zabawkami, które zawsze istnieje tylko jedno.  
+Nawet jeśli ktoś spróbuje stworzyć nowe pudełko, to i tak otrzyma dokładnie to samo jedyne pudełko.  
+Nie da się mieć dwóch — każda próba stworzenia kolejnego zwraca tę samą instancję.
+
 ---
 
 ## ⚠ Typowe błędne wyobrażenie
 
+Wiele osób błędnie uważa, że Singleton to wzorzec, który tworzy „taki sam obiekt” za każdym razem.  
+W rzeczywistości obiekt powstaje tylko raz — a każda kolejna próba jego utworzenia zwraca wyłącznie referencję do tej pierwszej, jedynej instancji.
 ---
 
 ## 📌 Kontrast (X vs Y)
 
-| Cecha | Wzorzec projektowy Singleton w Pythonie | Koncepcja przeciwna |
-| ----- | --------- | ------------------- |
-|       |           |                     |
-|       |           |                     |
+| Cecha            | Singelton    | Przeciwieństwo               |
+| ---------------- | ------------ | ---------------------------- |
+| Liczba instancji | 1            | dowolnie wiele               |
+| Tworzenie        | kontrolowane | każdy new tworzy nowy obiekt |
+| Dzielenie stanu  | wspólne      | brak                         |
+| Punkt dostępu    | globalny     | indywidualne instancje       |
 
 ---
 
-## 🗂 Fiszki (SRS)
+## 🗂 Fiszki (SRS) #flashcards 
 
-Pytanie 
-??
-Odpowiedź
+Co to jest wzorzec Singleton?
+?
+To wzorzec projektowy, który gwarantuje, że klasa ma **tylko jedną instancję**, a każdy dostęp do niej zwraca **ten sam obiekt**.
+<!--SR:!2025-11-28,1,230-->
+
+Dlaczego stosuje się Singleton?
+?
+Aby mieć **jedno wspólne źródło prawdy**, np. globalną konfigurację, logger, połączenie do bazy lub cache.
+<!--SR:!2025-11-30,3,268-->
+
+Na czym polega działanie Singletona?
+?
+Przy pierwszym tworzeniu instancji obiekt jest tworzony, a przy każdej kolejnej próbie tworzenia zwracana jest **referencja do pierwszego obiektu**, zamiast tworzyć nowy.
+<!--SR:!2025-11-30,3,268-->
+
+Gdzie przechowywana jest jedyna instancja Singletona
+?
+W **atrybucie klasowym** (np. `_instance` w Pythonie).
+<!--SR:!2025-11-28,1,232-->
+
+Czemu w Singletonie nadpisuje się `__new__` zamiast `__init__`?
+?
+`__new__` tworzy obiekt — więc tam mamy kontrolę, czy powstanie nowa instancja.
+`__init__` uruchamia się **po stworzeniu obiektu**, więc jest już za późno, by blokować mnożenie instancji.
+<!--SR:!2025-11-30,3,252-->
 
 ---
 

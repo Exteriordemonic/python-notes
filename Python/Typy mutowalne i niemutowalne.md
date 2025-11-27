@@ -164,27 +164,32 @@ Możemy zmieniać wartość zmiennej, możemy wykonywać na niej operacje, może
 
 ---
 
-## 🗂 Fiszki (SRS)
+## 🗂 Fiszki (SRS) #flashcards 
 
-Wymień niemutowalne typy danych 
-??
+Wymień niemutowalne typy danych
+?
 int, float, bool, string, tuple, frozenset
+<!--SR:!2025-12-01,4,275-->
 
 Wymień mutowalne typy danych
-??
+?
 list, dict, set
+<!--SR:!2025-12-01,4,275-->
 
 Co znaczy że typ jest mutowalny?
-??
+?
 Można zmieniać jego zawartość _bez tworzenia nowego obiektu_, ID w pamięci pozostaje to samo.
+<!--SR:!2025-12-01,4,275-->
 
 Co znaczy że typ jest niemutowalny?
-??
+?
 Po każdej próbie zmiany powstaje _nowy obiekt_ — a więc obiekt dostaje nowe ID.
+<!--SR:!2025-12-01,4,275-->
 
 Jak sprawdzić, czy obiekt jest mutowalny w praktyce?
-??
+?
 Zmienić jego wartość i porównać `id()` przed i po.
+<!--SR:!2025-12-01,4,275-->
 
 ---
 

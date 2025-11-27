@@ -78,11 +78,9 @@ graph: false
 
 ---
 
-## 🗂 Fiszki (SRS)
+## 🗂 Fiszki (SRS) #flashcards 
 
-Pytanie 
-??
-Odpowiedź
+
 
 ---
 

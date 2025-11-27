@@ -138,11 +138,13 @@ W dynamicznym typowaniu zmienia się **wiązanie etykieta → obiekt**, a nie ty
 ## 🗂 Fiszki (SRS) #flashcards
 
 Co to jest Dynamicznie typowany język?
-??
+?
 Język, w którym **typ należy do wartości, a nie do zmiennej**, i jest ustalany **w czasie działania programu (runtime)**.
+<!--SR:!2025-12-01,4,272-->
 
 
 Jak działa Dynamicznie typowany język?
-??
+?
 Przypisujesz wartość → język automatycznie określa jej typ → zmienna wskazuje na tę wartość.
 Zmienna może później wskazać na wartość innego typu.
+<!--SR:!2025-12-01,4,270-->
