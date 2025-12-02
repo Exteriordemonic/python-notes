@@ -61,8 +61,10 @@ Final oznacza, że zmienna nie powinna być nadpisywana po inicjalizacji - to ws
 Jakiego typu użyjemy w Pythonie do oznaczenia zmiennej, która nie powinna być nadpisywana?
 ?
 Do oznaczenia zmiennej, która nie powinna być nadpisywana, używamy typu Final, który wskazuje, że wartość powinna pozostać stała po inicjalizacji.
+<!--SR:!2025-12-06,4,270-->
 
 Do czego użyjemy typu Final w adnotacjach typów?
 ?
 Final służy do oznaczenia zmiennych, stałych konfiguracyjnych i atrybutów klas, które nie powinny być nadpisywane. Jest używane do wartości takich jak klucze API, numery wersji, limity i inne stałe, które powinny pozostać niezmienione przez cały czas życia programu.
+<!--SR:!2025-12-03,1,230-->
 

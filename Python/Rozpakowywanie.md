@@ -190,12 +190,12 @@ Pakowanie (packing), czyli łączenie wartości w jedną strukturę.
 Jaką rolę pełni gwiazdka (*) w unpackingu?
 ?
 Zbiera „resztę” elementów do listy.
-<!--SR:!2025-12-01,1,230-->
+<!--SR:!2025-12-05,3,250-->
 
 Jaki typ danych zawsze otrzymuje zmienna z gwiazdką?
 ?
 Listę.
-<!--SR:!2025-12-01,1,230-->
+<!--SR:!2025-12-05,3,250-->
 
 Co dostaje *var, jeśli nie ma żadnych nadwyżkowych elementów?
 ?
@@ -205,7 +205,7 @@ Pustą listę `[]`.
 Co się stanie, jeśli elementów jest za mało do przydzielenia wszystkim zmiennym?
 ?
 Python zgłosi `ValueError`.
-<!--SR:!2025-12-02,1,210-->
+<!--SR:!2025-12-03,1,190-->
 
 Dlaczego Python używa listy dla *var zamiast krotki?
 ?

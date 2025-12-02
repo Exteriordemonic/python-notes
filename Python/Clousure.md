@@ -147,44 +147,52 @@ return jest tylko jednym z możliwych sposobów opuszczenia zakresu — nie jedy
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-Co przechowuje closure — wartości czy referencje?  
-?  
+Co przechowuje closure — wartości czy referencje?
+?
 Closure przechowuje referencje do cell objects, nie skopiowane wartości.
+<!--SR:!2025-12-03,1,230-->
 
-pytanie  
-Czy closure powstaje wyłącznie wtedy, gdy funkcja zwraca inną funkcję?  
-?  
+pytanie
+Czy closure powstaje wyłącznie wtedy, gdy funkcja zwraca inną funkcję?
+?
 Nie, closure powstaje zawsze, gdy funkcja wewnętrzna opuszcza swój zakres i używa zmiennych z outer scope.
+<!--SR:!2025-12-03,1,230-->
 
-pytanie  
-Czy closure może działać na zmiennych globalnych?  
-?  
+pytanie
+Czy closure może działać na zmiennych globalnych?
+?
 Nie, zmienne globalne nie tworzą closure.
+<!--SR:!2025-12-06,4,270-->
 
-pytanie  
-Czy każda funkcja wewnętrzna tworzy closure?  
-?  
+pytanie
+Czy każda funkcja wewnętrzna tworzy closure?
+?
 Nie, tylko taka, która korzysta z zmiennych z zewnętrznego scope.
+<!--SR:!2025-12-06,4,270-->
 
-pytanie  
-Czy różne wywołania funkcji zewnętrznej współdzielą ten sam closure?  
-?  
+pytanie
+Czy różne wywołania funkcji zewnętrznej współdzielą ten sam closure?
+?
 Nie, każde wywołanie tworzy własny, niezależny plecak (closure).
+<!--SR:!2025-12-05,3,250-->
 
-pytanie  
-Czy `nonlocal` jest potrzebne do odczytu zmiennej z closure?  
-?  
+pytanie
+Czy `nonlocal` jest potrzebne do odczytu zmiennej z closure?
+?
 Nie, jest potrzebne tylko do jej modyfikacji.
+<!--SR:!2025-12-06,4,270-->
 
-pytanie  
-Jak closure zachowuje zmienne po zakończeniu działania funkcji zewnętrznej?  
-?  
+pytanie
+Jak closure zachowuje zmienne po zakończeniu działania funkcji zewnętrznej?
+?
 Przechowuje je w cell objects, które żyją dalej dzięki referencjom funkcji wewnętrznej.
+<!--SR:!2025-12-03,1,230-->
 
-pytanie  
-Jaki jest warunek powstania closure?  
-?  
+pytanie
+Jaki jest warunek powstania closure?
+?
 Funkcja wewnętrzna musi używać zmiennych z outer scope i przetrwać dłużej niż ten scope.
+<!--SR:!2025-12-03,1,230-->
 
 ---
 

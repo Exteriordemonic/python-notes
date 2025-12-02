@@ -67,8 +67,10 @@ Callable pozwala typować funkcje przekazywane jako argumenty, określając jaki
 Jakiego typu użyjemy w Pythonie do opisania funkcji w adnotacjach typów?
 ?
 Do opisywania funkcji używamy typu Callable.
+<!--SR:!2025-12-05,3,250-->
 
 Do czego użyjemy typu Callable w adnotacjach typów?
 ?
 Callable służy do określania jakie argumenty funkcja przyjmuje i jaki typ zwraca, dzięki czemu możemy typować funkcje przekazywane jako argumenty.
+<!--SR:!2025-12-03,1,230-->
 

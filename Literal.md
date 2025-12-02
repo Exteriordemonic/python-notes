@@ -61,8 +61,10 @@ Literal ogranicza wartość do konkretnych, predefiniowanych literałów, co jes
 Jakiego typu użyjemy w Pythonie do ograniczenia wartości do konkretnych literałów (np. tylko "ok", "error", "pending")?
 ?
 Do ograniczania wartości do konkretnych literałów używamy typu Literal, który pozwala określić dokładnie jakie wartości są dozwolone.
+<!--SR:!2025-12-03,1,230-->
 
 Do czego użyjemy typu Literal w adnotacjach typów?
 ?
 Literal służy do ograniczania wartości parametrów do konkretnych, predefiniowanych literałów. Jest idealne do parametrów API, trybów działania, statusów i konfiguracji, gdzie chcemy mieć gwarancję, że wartość będzie jedną z dozwolonych opcji (np. mode: Literal["strict", "safe"]).
+<!--SR:!2025-12-05,3,250-->
 

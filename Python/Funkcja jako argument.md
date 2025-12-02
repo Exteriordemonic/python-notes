@@ -106,9 +106,10 @@ Wiele osób myśli, że funkcja opakowująca **modyfikuje** oryginał — w rzec
 
 ## 🗂 Fiszki (SRS) #flashcards
 
-Czym jest funkcja opakowująca?  
-?  
+Czym jest funkcja opakowująca?
+?
 Funkcja, która przyjmuje inną funkcję i zwraca jej rozszerzoną wersję, nie zmieniając oryginalnego kodu.
+<!--SR:!2025-12-03,1,230-->
 
 ---
 

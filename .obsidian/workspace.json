@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final.md",
+                "file": "Python/Dekoratory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Final"
+              "title": "Dekoratory"
             }
           },
           {
@@ -233,17 +233,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f61e2c12f9427629",
+  "active": "92b5f00690311934",
   "lastOpenFiles": [
+    "Pasted image 20251202193057.png",
+    "Annotated.md",
+    "Python/Dekoratory.md",
+    "Python/Glossary",
+    "lambda.md",
+    "keyword-1.md",
+    "id.md",
+    "Final.md",
     "dict.md",
     "Callable.md",
     "Any.md",
+    "Python/Typy mutowalne i niemutowalne.md",
     "Literal.md",
     "Never.md",
-    "Annotated.md",
     "TypeVar.md",
     "Protocol.md",
-    "Final.md",
     "TypedDict.md",
     "TypeAlias.md",
     "Optional.md",
@@ -258,16 +265,10 @@
     "Pasted image 20251130210747.png",
     "Python/Funkcja jako argument.md",
     "Pasted image 20251130205245.png",
-    "lambda.md",
     "starred target.md",
     "Pasted image 20251130200211.png",
-    "Python/Pakowanie.md",
-    "Python/Rozpakowywanie.md",
     "Pasted image 20251130180211.png",
-    "keyword-1.md",
-    "Python/Dynamicznie typowany język.md",
     "Pasted image 20251128224408.png",
-    "Python/List Comperhension.md",
     "Pasted image 20251126222310.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
