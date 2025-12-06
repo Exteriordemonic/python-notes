@@ -23,9 +23,11 @@ print(some_func.__doc__)  # Function doc-string
 ## 🗂 Fiszki (SRS) #flashcards 
 
 Czym możemy rozwiązać problem` __name__` oraz `__doc__` w dekoratorach
-?  
+?
 Za pomocą `from functools import wraps` `@wraps(func)`
+<!--SR:!2025-12-09,4,270-->
 
 Co zrobi `from functools import wraps`
 ?
-Functools wraps zaktualizuje dekorator o atrybuty dekorowanej funkcji 
+Functools wraps zaktualizuje dekorator o atrybuty dekorowanej funkcji
+<!--SR:!2025-12-07,1,210--> 

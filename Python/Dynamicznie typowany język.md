@@ -147,4 +147,4 @@ Jak działa Dynamicznie typowany język?
 ?
 Przypisujesz wartość → język automatycznie określa jej typ → zmienna wskazuje na tę wartość.
 Zmienna może później wskazać na wartość innego typu.
-<!--SR:!2025-12-04,2,250-->
+<!--SR:!2025-12-12,7,270-->

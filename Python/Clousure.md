@@ -150,49 +150,49 @@ return jest tylko jednym z możliwych sposobów opuszczenia zakresu — nie jedy
 Co przechowuje closure — wartości czy referencje?
 ?
 Closure przechowuje referencje do cell objects, nie skopiowane wartości.
-<!--SR:!2025-12-03,1,230-->
+<!--SR:!2025-12-07,2,230-->
 
 pytanie
 Czy closure powstaje wyłącznie wtedy, gdy funkcja zwraca inną funkcję?
 ?
 Nie, closure powstaje zawsze, gdy funkcja wewnętrzna opuszcza swój zakres i używa zmiennych z outer scope.
-<!--SR:!2025-12-03,1,230-->
+<!--SR:!2025-12-08,3,250-->
 
 pytanie
 Czy closure może działać na zmiennych globalnych?
 ?
 Nie, zmienne globalne nie tworzą closure.
-<!--SR:!2025-12-06,4,270-->
+<!--SR:!2025-12-22,16,290-->
 
 pytanie
 Czy każda funkcja wewnętrzna tworzy closure?
 ?
 Nie, tylko taka, która korzysta z zmiennych z zewnętrznego scope.
-<!--SR:!2025-12-06,4,270-->
+<!--SR:!2025-12-21,15,290-->
 
 pytanie
 Czy różne wywołania funkcji zewnętrznej współdzielą ten sam closure?
 ?
 Nie, każde wywołanie tworzy własny, niezależny plecak (closure).
-<!--SR:!2025-12-05,3,250-->
+<!--SR:!2025-12-15,10,270-->
 
 pytanie
 Czy `nonlocal` jest potrzebne do odczytu zmiennej z closure?
 ?
 Nie, jest potrzebne tylko do jej modyfikacji.
-<!--SR:!2025-12-06,4,270-->
+<!--SR:!2025-12-22,16,290-->
 
 pytanie
 Jak closure zachowuje zmienne po zakończeniu działania funkcji zewnętrznej?
 ?
 Przechowuje je w cell objects, które żyją dalej dzięki referencjom funkcji wewnętrznej.
-<!--SR:!2025-12-03,1,230-->
+<!--SR:!2025-12-09,3,230-->
 
 pytanie
 Jaki jest warunek powstania closure?
 ?
 Funkcja wewnętrzna musi używać zmiennych z outer scope i przetrwać dłużej niż ten scope.
-<!--SR:!2025-12-03,1,230-->
+<!--SR:!2025-12-08,3,250-->
 
 ---
 

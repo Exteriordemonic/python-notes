@@ -118,28 +118,28 @@ Oryginalna lista **zostaje nietknięta**, a wynik list comprehension to **nowy o
 **P:** Co to jest list comprehension?
 ?
 **O:** Zwięzły sposób tworzenia nowej listy poprzez iterację, opcjonalne filtrowanie i transformację elementów.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-20,15,290-->
 
 ---
 
 **P:** Jaka jest składnia list comprehension?
 ?
 **O:** `[expression for item in iterable if condition]`
-<!--SR:!2025-12-03,3,250-->
+<!--SR:!2025-12-15,10,270-->
 
 ---
 
 **P:** Co robi część `if` w list comprehension?
 ?
 **O:** Filtruje elementy tak, aby do nowej listy trafiły tylko te spełniające warunek.
-<!--SR:!2025-12-04,4,272-->
+<!--SR:!2025-12-21,16,292-->
 
 ---
 
 **P:** Czym list comprehension różni się od pętli?
 ?
 **O:** Robi to samo, ale krócej, czytelniej i często szybciej.
-<!--SR:!2025-12-04,4,272-->
+<!--SR:!2025-12-21,16,292-->
 
 ---
 

@@ -172,62 +172,62 @@ To ograniczenie składni przypisania, nie funkcji.
 Co tak naprawdę tworzy tuple — nawiasy () czy przecinek?
 ?
 Tuple powstaje od przecinka, nawiasy są opcjonalne i służą tylko do czytelności.
-<!--SR:!2025-12-03,3,250-->
+<!--SR:!2025-12-16,11,270-->
 
 Dlaczego `a = (1)` nie tworzy tuple?
 ?
 Bo nie ma przecinka; `(1)` to zwykła liczba w nawiasie.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-20,15,290-->
 
 Co oznacza `*b` po lewej stronie przypisania (`a, *b = ...`)?
 ?
 To starred target — zmienna zbierająca wszystkie pozostałe elementy, zawsze jako listę.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-21,16,290-->
 
 Dlaczego w przypisaniu `*a, *b = [1, 2, 3]` wystąpi błąd?
 ?
 Bo w jednej strukturze przypisania może istnieć tylko jeden starred target (`*x`).
-<!--SR:!2025-12-03,3,250-->
+<!--SR:!2025-12-16,11,270-->
 
 Czym różni się `*` w przypisaniu od `*` w wywołaniu funkcji?
 ?
 W przypisaniu `*` zbiera resztę, a w wywołaniu funkcji `*` rozpakowuje elementy do argumentów.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-20,15,290-->
 
 Co dokładnie pakuje `*args` w definicji funkcji?
 ?
 Pakuje wszystkie argumenty pozycyjne do jednej krotki (`tuple`).
-<!--SR:!2025-12-03,3,250-->
+<!--SR:!2025-12-15,10,270-->
 
 Co dokładnie pakuje `**kwargs` w definicji funkcji?
 ?
 Pakuje wszystkie argumenty nazwane do słownika (`dict`).
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-19,14,290-->
 
 Czy pakowanie może stworzyć listę?
 ?
 Nie — pakowanie zawsze tworzy tuple; lista pojawia się tylko przy starred assignment (`*b = ...`).
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-19,14,290-->
 
 Dlaczego `return 1, 2, 3` zwraca tuple, mimo że nie ma nawiasów?
 ?
 Bo Python automatycznie pakuje wartości oddzielone przecinkami do tuple.
-<!--SR:!2025-12-03,3,250-->
+<!--SR:!2025-12-16,11,270-->
 
 Czy `b` w `a, *b = ...` jest „argumentem pozycyjnym”?
 ?
 Nie — to zwykła zmienna zbierająca resztę elementów, nie ma związku z argumentami funkcji.
-<!--SR:!2025-12-04,3,250-->
+<!--SR:!2025-12-17,12,270-->
 
 Co jest przeciwieństwem pakowania?
 ?
 Rozpakowywanie — dzielenie jednej struktury na wiele zmiennych.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-20,15,290-->
 
 Dlaczego rozpakowywanie może dać błąd „too many values to unpack”?
 ?
 Bo liczba zmiennych po lewej musi zgadzać się z liczbą elementów po prawej — chyba że używasz `*`.
-<!--SR:!2025-12-04,4,270-->
+<!--SR:!2025-12-20,15,290-->
 
 ---
 

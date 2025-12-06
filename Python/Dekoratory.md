@@ -160,45 +160,55 @@ To jak w Żabce: masz parówkę (funkcję), do której dokładane są kolejne wa
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-**Co to jest dekorator?  
-?  
+**Co to jest dekorator?
+?
 Funkcja opakowująca, która rozszerza działanie innej funkcji bez zmiany jej kodu.**
+<!--SR:!2025-12-09,4,270-->
 
-**Co zwraca dekorator?  
-?  
+**Co zwraca dekorator?
+?
 Obiekt zastępujący oryginalną funkcję (najczęściej wrapper).**
+<!--SR:!2025-12-08,2,230-->
 
-**Kiedy wykonuje się dekorator?  
-?  
+**Kiedy wykonuje się dekorator?
+?
 Przy definicji funkcji (czas dekorowania).**
+<!--SR:!2025-12-08,3,250-->
 
-**Kiedy wykonuje się wrapper?  
-?  
+**Kiedy wykonuje się wrapper?
+?
 Dopiero przy wywołaniu udekorowanej funkcji.**
+<!--SR:!2025-12-09,4,270-->
 
-**Jak działa stosowanie wielu dekoratorów?  
-?  
+**Jak działa stosowanie wielu dekoratorów?
+?
 Tworzą warstwy — wykonywane są od góry do dołu, wywoływane od dołu do góry.**
+<!--SR:!2025-12-09,4,270-->
 
-**Czy dekorator może mieć własne argumenty?  
-?  
+**Czy dekorator może mieć własne argumenty?
+?
 Tak, wtedy tworzy „fabrykę dekoratorów” (funkcja zwracająca dekorator).**
+<!--SR:!2025-12-09,4,270-->
 
-**Jaka jest przeciwna koncepcja do dekoratorów?  
-?  
+**Jaka jest przeciwna koncepcja do dekoratorów?
+?
 Hard-coding — modyfikacja funkcji bezpośrednio w jej kodzie.**
+<!--SR:!2025-12-09,4,270-->
 
-**Z czego korzystają dekoratory technicznie?  
-?  
+**Z czego korzystają dekoratory technicznie?
+?
 Z funkcji jako obiektów pierwszej klasy i closure.**
+<!--SR:!2025-12-08,3,250-->
 
-**Co dekorator najczęściej opakowuje?  
-?  
+**Co dekorator najczęściej opakowuje?
+?
 Funkcję, metodę lub klasę.**
+<!--SR:!2025-12-09,4,270-->
 
-**Czy dekorator musi zwrócić funkcję?  
-?  
+**Czy dekorator musi zwrócić funkcję?
+?
 Nie — musi zwrócić _coś_, co zastąpi oryginał (funkcja, klasa, callable).**
+<!--SR:!2025-12-09,3,250-->
 
 ---
 

@@ -1,4 +1,4 @@
-aliases: []  
+  aliases: []  
 tags: [theory, cs, programming]  
 sr-due: true  
 graph: false
@@ -107,7 +107,7 @@ Wiele osób myśli, że funkcja opakowująca **modyfikuje** oryginał — w rzec
 Czym jest funkcja opakowująca?
 ?
 Funkcja, która przyjmuje inną funkcję i zwraca jej rozszerzoną wersję, nie zmieniając oryginalnego kodu.
-<!--SR:!2025-12-03,1,230-->
+<!--SR:!2025-12-09,3,230-->
 
 ---
 
