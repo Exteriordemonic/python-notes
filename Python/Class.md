@@ -279,6 +279,7 @@ class Mage(Character):
 - [[__dict__]]
 - [[__class__]]
 - [[setattr]]
+- [[magic methods]]
 
 ---
 
