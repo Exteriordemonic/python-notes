@@ -189,21 +189,21 @@ Nie, iterator zużywa się; po pierwszym przejściu jest wyczerpany.
 Czy pętla for iteruje po kolekcji?
 ?
 Nie, pętla for zawsze działa na iteratorze stworzonym z kolekcji.
-<!--SR:!2025-12-16,3,250-->
+<!--SR:!2025-12-29,11,270-->
 
 ---
 
 Czy obiekt iterowalny musi mieć metodę **next**?
 ?
 Nie, obiekt iterowalny musi mieć **iter**, **next** znajduje się w iteratorze.
-<!--SR:!2025-12-17,3,230-->
+<!--SR:!2025-12-26,9,250-->
 
 ---
 
 Czy każdy obiekt z **next** jest iteratorem?
 ?
 Nie, prawdziwy iterator musi mieć zarówno **next** jak i **iter** zwracającą self.
-<!--SR:!2025-12-18,3,210-->
+<!--SR:!2025-12-24,6,210-->
 
 ---
 
@@ -217,14 +217,14 @@ Generator jest iteratorem i iterowalny, ponieważ iter(generator) zwraca jego sa
 Czy obiekt może być jednocześnie iteratorem i iterowalnym?
 ?
 Tak, jeśli **iter** zwraca self, ale wtedy można przejść po nim tylko raz.
-<!--SR:!2025-12-26,12,270-->
+<!--SR:!2026-01-11,6,250-->
 
 ---
 
 Czy pętla for zawsze wymaga **iter**?
 ?
 Nie zawsze, jeśli obiekt nie ma **iter**, Python użyje **getitem** z indeksami aż do IndexError.
-<!--SR:!2025-12-16,2,210-->
+<!--SR:!2025-12-21,4,210-->
 
 ---
 
@@ -238,7 +238,7 @@ Nie, iterowalne tworzy nowy iterator, iterator zwraca kolejne elementy przez nex
 Czy StopIteration oznacza, że kolekcja się skończyła?
 ?
 Nie, StopIteration oznacza, że skończył się iterator, kolekcja może istnieć dalej i można stworzyć nowy iterator.
-<!--SR:!2025-12-17,3,230-->
+<!--SR:!2025-12-29,11,250-->
 
 ---
 

@@ -1,3 +1,9 @@
+---
+sr-due: 2026-01-08
+sr-interval: 2
+sr-ease: 247
+---
+
 
 aliases: []  
 tags: [theory, cs, programming]  
@@ -86,6 +92,7 @@ zamiast myśleć o pojedynczych klockach, pracujemy na gotowych budowlach, takic
     
 - [[Polimorfizm (polymorphism)]]
     
+- [[Abstrakcja (abstraction)]]
 
 ---
 
@@ -151,7 +158,7 @@ Mślałem że Objekt może mieć tylko dane jako strukturwa w rzeczywistości Ob
 Czym w OOP jest **obiekt**?
 ?
 Obiekt to instancja klasy, która posiada **tożsamość, stan i zachowanie**.
-<!--SR:!2025-12-18,3,250-->
+<!--SR:!2025-12-30,12,270-->
 
 ---
 
@@ -165,28 +172,28 @@ Klasa jest definicją (szablonem), a obiekt konkretną instancją tej definicji.
 Na czym polega **enkapsulacja** w OOP?
 ?
 Na ukrywaniu szczegółów implementacji i udostępnianiu tylko kontrolowanego interfejsu.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2025-12-20,2,230-->
 
 ---
 
 Czy **polimorfizm** wymaga dziedziczenia?
 ?
 Nie, polimorfizm polega na wspólnym interfejsie zachowania, a nie na relacji dziedziczenia.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2025-12-20,2,230-->
 
 ---
 
 Czym jest **polimorfizm** w OOP?
 ?
 To możliwość wywoływania tego samego zachowania na różnych obiektach, które reagują na nie na swój sposób.
-<!--SR:!2025-12-18,3,250-->
+<!--SR:!2025-12-28,10,270-->
 
 ---
 
 Czym jest **tożsamość obiektu**?
 ?
 To fakt, że obiekt jest rozpoznawalny jako ten sam byt niezależnie od zmian swojego stanu.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2025-12-19,1,210-->
 
 ---
 
@@ -200,14 +207,14 @@ Ponieważ obiekty zmieniają swój stan w czasie, a dane nie płyną liniowo prz
 Czym jest **mutowalność** w OOP?
 ?
 To możliwość zmiany stanu obiektu „w miejscu” bez tworzenia nowego obiektu.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2026-01-06,1,190-->
 
 ---
 
 Czy OOP wymaga **mutowalności**?
 ?
 Nie, OOP może być niemutowalne, ale klasyczne podejście często na niej polega.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2025-12-19,2,230-->
 
 ---
 
@@ -221,14 +228,15 @@ Obiekt OOP łączy dane z zachowaniem, a struktura danych przechowuje tylko dane
 Czy obiekt bez metod jest pełnoprawnym obiektem OOP?
 ?
 Nie do końca — jest raczej pojemnikiem na dane (anemic model) niż obiektem z zachowaniem.
-<!--SR:!2025-12-16,1,230-->
+<!--SR:!2025-12-19,1,210-->
 
 ---
 
 Na czym polega główna różnica mentalna między **OOP a FP**?
 ?
-OOP skupia się na obiektach zmieniających stan, a FP na przepływie danych przez funkcje.
-<!--SR:!2025-12-16,1,230-->
+OOP skupia się na obiektach posiadających i modyfikujących stan (enkapsulacja stanu + metody),
+natomiast FP skupia się na przepływie danych przez funkcje czyste, zwykle operujące na niemutowalnych danych.
+<!--SR:!2025-12-19,1,210-->
 
 ---
 

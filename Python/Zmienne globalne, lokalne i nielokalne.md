@@ -148,12 +148,12 @@ Zmienna utworzona w module, widoczna w całym programie; do modyfikacji wymaga s
 Co to jest zmienna lokalna?
 ?
 Zmienna utworzona wewnątrz funkcji, dostępna tylko w tej funkcji i tworzona na nowo przy każdym wywołaniu.
-<!--SR:!2025-12-16,11,270-->
+<!--SR:!2026-01-30,43,290-->
 
 Co to jest zmienna nielokalna (nonlocal)?
 ?
 Zmienna należąca do funkcji zewnętrznej, którą funkcja wewnętrzna może modyfikować dzięki słowu kluczowemu nonlocal.
-<!--SR:!2025-12-17,9,250-->
+<!--SR:!2025-12-22,5,230-->
 
 Czy można odczytać zmienną globalną bez użycia global?
 ?
@@ -173,7 +173,7 @@ Tak, odczyt jest dozwolony — nonlocal jest potrzebne tylko do modyfikacji.
 Czy można modyfikować zmienną nonlocal bez nonlocal?
 ?
 Nie, Python uzna wtedy zmienną za lokalną i wygeneruje błąd UnboundLocalError.
-<!--SR:!2025-12-18,12,270-->
+<!--SR:!2026-02-02,46,290-->
 
 Czy zmienna lokalna jest widoczna poza funkcją, w której powstała?
 ?
@@ -188,7 +188,7 @@ Tak, jeśli jest lokalną zmienną funkcji zewnętrznej, zostanie zapamiętana p
 Czy zmienna globalna może zostać zachowana w closure?
 ?
 Nie, closure przechowuje tylko zmienne z lokalnych scope’ów funkcji zewnętrznych.
-<!--SR:!2025-12-16,11,270-->
+<!--SR:!2026-01-27,41,290-->
 
 Czy funkcja widzi zmienne lokalne innej funkcji?
 ?
@@ -199,7 +199,7 @@ Od czego zależy dostępność zmiennych (lexical scope)?
 ?
 Dostępność zależy od miejsca definicji funkcji, a nie od miejsca jej wywołania.
 LEGB (Local, Enclosing, Global, Built-in)
-<!--SR:!2025-12-31,16,250-->
+<!--SR:!2026-01-13,8,230-->
 
 Jaka jest kolejność szukania zmiennych w Pythonie (LEGB)?
 ?
@@ -209,7 +209,7 @@ Local → Enclosing (nonlocal) → Global → Builtins.
 Co się stanie przy próbie użycia zmiennej z wyższego scope bez deklaracji global lub nonlocal, jeśli próbujemy ją modyfikować?
 ?
 Python potraktuje ją jako zmienną lokalną i zgłosi UnboundLocalError.
-<!--SR:!2025-12-16,8,250-->
+<!--SR:!2025-12-21,4,230-->
 
 ---
 

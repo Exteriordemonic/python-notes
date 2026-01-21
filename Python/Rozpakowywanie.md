@@ -185,12 +185,12 @@ Rozdziela elementy sekwencji na osobne zmienne.
 Co jest przeciwieństwem rozpakowywania?
 ?
 Pakowanie (packing), czyli łączenie wartości w jedną strukturę.
-<!--SR:!2025-12-17,12,270-->
+<!--SR:!2025-12-24,6,250-->
 
 Jaką rolę pełni gwiazdka (*) w unpackingu?
 ?
 Zbiera „resztę” elementów do listy.
-<!--SR:!2025-12-17,12,270-->
+<!--SR:!2026-01-31,44,290-->
 
 Jaki typ danych zawsze otrzymuje zmienna z gwiazdką?
 ?

@@ -230,21 +230,21 @@ Okej, więc moimi błędnymi założeniami było to, że przy użyciu pętli `fo
 Czym generator różni się od zwykłej funkcji z `return`?
 ?
 Zwykła funkcja z `return` zwraca wartość i kończy działanie, tracąc cały stan. Funkcja generatorowa z `yield` zwraca wartość, ale tylko pauzuje — zachowuje swój stan i wznawia działanie przy kolejnym `next` lub obrocie pętli `for`.
-<!--SR:!2025-12-17,4,270-->
+<!--SR:!2025-12-20,2,250-->
 
 ---
 
 Czy generator tworzy osobny obiekt iteratora?
 ?
 Nie. Obiekt generatora sam jest iteratorem i jednocześnie jest iterowalny — ma `__next__` i `__iter__`, a `iter(generator)` zwraca jego samego.
-<!--SR:!2025-12-17,4,270-->
+<!--SR:!2025-12-29,12,270-->
 
 ---
 
 Co zrobi druga pętla `for` na już wyczerpanym generatorze?
 ?
 Druga pętla `for` nic nie wypisze, bo generator jest wyczerpany. Pętla `for` wewnętrznie łapie wyjątek `StopIteration` i po prostu kończy iterację, bez błędu na ekranie.
-<!--SR:!2025-12-16,2,250-->
+<!--SR:!2025-12-25,7,270-->
 
 ---
 
@@ -279,14 +279,14 @@ W generatorze wartości są obliczane leniwie — dopiero w momencie, gdy rzeczy
 Czy kod wewnątrz generatora wykona się, jeśli nigdy po nim nie ziterujemy?
 ?
 Nie. Jeśli nie użyjemy `next`, `for`, `list(g)` ani innej formy iteracji, kod wewnątrz generatora (np. `expensive(x)`) w ogóle się nie wykona.
-<!--SR:!2025-12-31,16,310-->
+<!--SR:!2026-02-24,50,310-->
 
 ---
 
 Co dokładnie sygnalizuje wyjątek `StopIteration` w kontekście generatora?
 ?
 `StopIteration` oznacza, że generator nie ma już żadnych wartości do zwrócenia. Generator jest wyczerpany i dalsza iteracja nie zwróci kolejnych elementów.
-<!--SR:!2025-12-16,2,250-->
+<!--SR:!2025-12-25,7,270-->
 
 ---
 
@@ -307,7 +307,7 @@ Nie. Iterowalne to każdy obiekt, który potrafi zwrócić iterator (ma `__iter_
 Co robi `yield` w funkcji generatorowej na poziomie zachowania?
 ?
 `yield` zwraca wartość na zewnątrz i pauzuje wykonanie funkcji w tym miejscu, zachowując stan lokalnych zmiennych. Przy kolejnym `next` lub obrocie pętli `for` działanie wznawiane jest dokładnie od miejsca tuż za `yield`.
-<!--SR:!2025-12-16,3,250-->
+<!--SR:!2025-12-26,8,250-->
 
 ---
 

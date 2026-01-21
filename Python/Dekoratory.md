@@ -168,17 +168,17 @@ Funkcja opakowująca, która rozszerza działanie innej funkcji bez zmiany jej k
 **Co zwraca dekorator?
 ?
 Obiekt zastępujący oryginalną funkcję (najczęściej wrapper).**
-<!--SR:!2025-12-16,3,210-->
+<!--SR:!2025-12-23,6,210-->
 
 **Kiedy wykonuje się dekorator?
 ?
 Przy definicji funkcji (czas dekorowania).**
-<!--SR:!2025-12-17,7,250-->
+<!--SR:!2026-01-03,17,250-->
 
 **Kiedy wykonuje się wrapper?
 ?
 Dopiero przy wywołaniu udekorowanej funkcji.**
-<!--SR:!2025-12-21,12,270-->
+<!--SR:!2026-02-06,32,270-->
 
 **Jak działa stosowanie wielu dekoratorów?
 ?
@@ -188,7 +188,7 @@ Tworzą warstwy — wykonywane są od góry do dołu, wywoływane od dołu do g�
 **Czy dekorator może mieć własne argumenty?
 ?
 Tak, wtedy tworzy „fabrykę dekoratorów” (funkcja zwracająca dekorator).**
-<!--SR:!2025-12-17,3,230-->
+<!--SR:!2025-12-28,10,250-->
 
 **Jaka jest przeciwna koncepcja do dekoratorów?
 ?
@@ -198,7 +198,7 @@ Hard-coding — modyfikacja funkcji bezpośrednio w jej kodzie.**
 Z czego korzystają dekoratory technicznie?
 ?
 Z funkcji jako obiektów pierwszej klasy i closure.
-<!--SR:!2025-12-17,7,250-->
+<!--SR:!2026-01-12,25,270-->
 
 Co dekorator najczęściej opakowuje?
 ?

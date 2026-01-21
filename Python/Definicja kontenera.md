@@ -142,7 +142,7 @@ Moim wcześniejszym błędnym wyobrażeniem na temat kontenerów było to, że m
 **Co definiuje obiekt jako kontener w Pythonie?**
 ?
 Implementacja metody `__contains__`.
-<!--SR:!2025-12-17,2,270-->
+<!--SR:!2025-12-22,5,270-->
 
 ---
 
@@ -156,7 +156,7 @@ Nie. Kontener wymaga tylko `__contains__`.
 **Czy każdy iterowalny obiekt jest kontenerem?**
 ?
 Nie. Iterowalność nie oznacza posiadania `__contains__`.
-<!--SR:!2026-01-01,17,310-->
+<!--SR:!2026-02-27,53,310-->
 
 ---
 
@@ -184,21 +184,21 @@ list, tuple, str, set, dict.
 **Co zrobi Python, gdy użyjesz `in`, ale obiekt nie ma `__contains__`?**
 ?
 Spróbuje iterować obiekt (`__iter__`) i porównywać elementy.
-<!--SR:!2025-12-16,2,250-->
+<!--SR:!2025-12-19,1,230-->
 
 ---
 
 **Czy kontener musi mieć kolejność?**
 ?
 Nie. Kolejność jest cechą sekwencji, nie kontenera.
-<!--SR:!2025-12-17,4,270-->
+<!--SR:!2026-01-02,15,290-->
 
 ---
 
 **Czym kontener różni się od sekwencji?**
 ?
 Sekwencja ma kolejność i indeksy; kontener nie musi ich mieć.
-<!--SR:!2025-12-16,2,230-->
+<!--SR:!2025-12-25,7,250-->
 
 ---
 

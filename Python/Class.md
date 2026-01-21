@@ -353,7 +353,7 @@ Inicjalizuje obiekt już utworzony przez `__new__`, ustawia atrybuty instancji.
 Jaka jest różnica między atrybutem klasowym a instancji?
 ?
 Atrybut klasowy jest wspólny dla wszystkich instancji; atrybut instancji należy tylko do konkretnego obiektu.
-<!--SR:!2025-12-18,7,270-->
+<!--SR:!2026-01-13,26,290-->
 
 Gdzie tworzymy atrybuty instancji?
 ?
@@ -363,7 +363,7 @@ W metodzie `__init__` poprzez `self.nazwa`.
 Jak odwołać się do atrybutu klasowego wewnątrz instancji?
 ?
 Przez `type(self).nazwa` lub nazwę klasy.
-<!--SR:!2025-12-25,16,290-->
+<!--SR:!2026-01-14,9,270-->
 
 Dlaczego mutowalne atrybuty klasowe są niebezpieczne?
 ?
@@ -393,7 +393,7 @@ Referencję do konkretnej instancji, na której metoda jest wywoływana.
 Czy metody statyczne wymagają `self`?
 ?
 Nie — metoda oznaczona `@staticmethod` nie przyjmuje `self` ani `cls`.
-<!--SR:!2025-12-18,10,270-->
+<!--SR:!2026-01-24,37,290-->
 
 Czym różni się `@classmethod` od `@staticmethod`?
 ?
@@ -403,12 +403,12 @@ Czym różni się `@classmethod` od `@staticmethod`?
 Czy klasa może być wywoływalna jak funkcja?
 ?
 Tak, jeśli posiada metodę `__call__`.
-<!--SR:!2025-12-23,14,290-->
+<!--SR:!2026-02-15,41,290-->
 
 Czy obiekt z `__call__` staje się funkcją?
 ?
 Nie — tylko zachowuje się jak funkcja, ale nadal jest instancją klasy.
-<!--SR:!2025-12-18,10,270-->
+<!--SR:!2026-01-25,38,290-->
 
 Co robi `__repr__`?
 ?

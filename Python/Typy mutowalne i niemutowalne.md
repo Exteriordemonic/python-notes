@@ -169,7 +169,7 @@ Możemy zmieniać wartość zmiennej, możemy wykonywać na niej operacje, może
 Wymień niemutowalne typy danych
 ?
 int, float, bool, string, tuple, frozenset
-<!--SR:!2025-12-18,16,295-->
+<!--SR:!2026-02-22,66,315-->
 
 Wymień mutowalne typy danych
 ?
@@ -179,7 +179,7 @@ list, dict, set
 Co znaczy że typ jest mutowalny?
 ?
 Można zmieniać jego zawartość _bez tworzenia nowego obiektu_, ID w pamięci pozostaje to samo.
-<!--SR:!2025-12-17,15,295-->
+<!--SR:!2026-02-17,61,315-->
 
 Co znaczy że typ jest niemutowalny?
 ?
@@ -189,7 +189,7 @@ Po każdej próbie zmiany powstaje _nowy obiekt_ — a więc obiekt dostaje nowe
 Jak sprawdzić, czy obiekt jest mutowalny w praktyce?
 ?
 Zmienić jego wartość i porównać `id()` przed i po.
-<!--SR:!2025-12-16,15,295-->
+<!--SR:!2026-02-16,60,315-->
 
 ---
 

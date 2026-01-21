@@ -172,7 +172,7 @@ To ograniczenie składni przypisania, nie funkcji.
 Co tak naprawdę tworzy tuple — nawiasy () czy przecinek?
 ?
 Tuple powstaje od przecinka, nawiasy są opcjonalne i służą tylko do czytelności.
-<!--SR:!2025-12-16,11,270-->
+<!--SR:!2026-01-28,41,290-->
 
 Dlaczego `a = (1)` nie tworzy tuple?
 ?
@@ -182,12 +182,12 @@ Bo nie ma przecinka; `(1)` to zwykła liczba w nawiasie.
 Co oznacza `*b` po lewej stronie przypisania (`a, *b = ...`)?
 ?
 To starred target — zmienna zbierająca wszystkie pozostałe elementy, zawsze jako listę.
-<!--SR:!2025-12-21,16,290-->
+<!--SR:!2026-03-10,64,310-->
 
 Dlaczego w przypisaniu `*a, *b = [1, 2, 3]` wystąpi błąd?
 ?
 Bo w jednej strukturze przypisania może istnieć tylko jeden starred target (`*x`).
-<!--SR:!2025-12-16,11,270-->
+<!--SR:!2026-01-28,41,290-->
 
 Czym różni się `*` w przypisaniu od `*` w wywołaniu funkcji?
 ?
@@ -212,12 +212,12 @@ Nie — pakowanie zawsze tworzy tuple; lista pojawia się tylko przy starred ass
 Dlaczego `return 1, 2, 3` zwraca tuple, mimo że nie ma nawiasów?
 ?
 Bo Python automatycznie pakuje wartości oddzielone przecinkami do tuple.
-<!--SR:!2025-12-16,11,270-->
+<!--SR:!2026-01-26,40,290-->
 
 Czy `b` w `a, *b = ...` jest „argumentem pozycyjnym”?
 ?
 Nie — to zwykła zmienna zbierająca resztę elementów, nie ma związku z argumentami funkcji.
-<!--SR:!2025-12-17,12,270-->
+<!--SR:!2026-02-01,45,290-->
 
 Co jest przeciwieństwem pakowania?
 ?

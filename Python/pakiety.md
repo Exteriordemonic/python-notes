@@ -200,62 +200,62 @@ Kropka w `from . import x` to nie „obecny katalog na dysku” w sensie CWD, ty
 Czym różni się `from pkg import mod` od `from pkg.mod import func`?
 ?
 `from pkg import mod` importuje submoduł jako obiekt `mod`; żeby importować funkcję, użyj `from pkg.mod import func`.
-<!--SR:!2025-12-17,4,270-->
+<!--SR:!2026-01-03,16,290-->
 
 Czy `from pkg import mod` wykonuje kod z `pkg/mod.py`?
 ?
 Tak. Import submodułu wykonuje jego kod top-level (globalny) przy pierwszym imporcie.
-<!--SR:!2025-12-16,3,250-->
+<!--SR:!2025-12-20,2,230-->
 
 Co tak naprawdę robi `import pkg.mod`?
 ?
 Ładuje pakiet `pkg`, potem ładuje submoduł `pkg.mod` i udostępnia go jako atrybut `pkg.mod`.
-<!--SR:!2025-12-17,2,210-->
+<!--SR:!2025-12-22,4,210-->
 
 Czym jest `sys.path`?
 ?
 To lista katalogów (ścieżek), w których Python szuka modułów i pakietów podczas `import`.
-<!--SR:!2025-12-16,3,250-->
+<!--SR:!2026-01-11,6,250-->
 
 Czy `sys.path` przechowuje „listę zainstalowanych pakietów”?
 ?
 Nie. `sys.path` to miejsca do przeszukania; informacje o już załadowanych modułach są w `sys.modules`.
-<!--SR:!2025-12-16,2,230-->
+<!--SR:!2025-12-22,5,230-->
 
 Po co jest `sys.modules`?
 ?
 To cache już załadowanych modułów/pakietów; drugi import tej samej nazwy zwykle nie wykonuje kodu ponownie.
-<!--SR:!2025-12-17,3,245-->
+<!--SR:!2025-12-28,11,265-->
 
 Co oznacza kropka w `from . import x`?
 ?
 To relative import względem bieżącego pakietu (pakietu modułu), a nie względem aktualnego folderu uruchomienia programu.
-<!--SR:!2025-12-16,3,250-->
+<!--SR:!2025-12-30,12,270-->
 
 Kiedy relative import (`from . import x`) zadziała?
 ?
 Gdy moduł jest uruchamiany jako część pakietu (ma ustawione `__package__`), np. przez `python -m pkg.mod` albo normalny import.
-<!--SR:!2025-12-17,3,250-->
+<!--SR:!2025-12-27,9,250-->
 
 Dlaczego `python pkg/mod.py` często psuje relative importy?
 ?
 Bo wtedy plik działa jako „skrypt” z `__name__ == "__main__"` i zwykle nie ma poprawnego kontekstu pakietu (`__package__`), więc `from . import ...` nie wie skąd importować.
-<!--SR:!2025-12-16,1,185-->
+<!--SR:!2025-12-19,1,165-->
 
 Co robi `python -m pkg.mod`?
 ?
 Uruchamia moduł jako część pakietu, ustawiając poprawnie kontekst importów (m.in. `__package__`), dzięki czemu relative importy działają.
-<!--SR:!2025-12-16,2,225-->
+<!--SR:!2025-12-23,5,225-->
 
 Do czego służy `__all__`?
 ?
 Kontroluje, co zostanie zaimportowane przez `from module import *` (nie wpływa na zwykły `import module`).
-<!--SR:!2025-12-16,2,230-->
+<!--SR:!2025-12-25,7,250-->
 
 Czy `__all__` „ukrywa” rzeczy przed normalnym importem?
 ?
 Nie. Nadal można importować nazwy bezpośrednio; `__all__` dotyczy głównie `import *`.
-<!--SR:!2025-12-16,3,265-->
+<!--SR:!2025-12-30,12,285-->
 
 Czym jest `__path__` w pakiecie?
 ?
@@ -265,12 +265,12 @@ To lista ścieżek, w których Python szuka submodułów danego pakietu (`pkg.so
 Po co istnieje `__path__`?
 ?
 Pozwala pakietowi mieć submoduły w wielu lokalizacjach (ważne m.in. dla namespace packages).
-<!--SR:!2025-12-17,2,210-->
+<!--SR:!2025-12-22,4,210-->
 
 Czy folder bez `__init__.py` może być pakietem?
 ?
 Tak, jako namespace package (Python 3.3+), ale wtedy nie masz miejsca na kod inicjalizacyjny w `__init__.py`.
-<!--SR:!2025-12-17,3,245-->
+<!--SR:!2025-12-27,9,265-->
 
 ---
 
