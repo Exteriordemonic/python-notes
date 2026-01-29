@@ -237,7 +237,7 @@ Zwykła funkcja z `return` zwraca wartość i kończy działanie, tracąc cały 
 Czy generator tworzy osobny obiekt iteratora?
 ?
 Nie. Obiekt generatora sam jest iteratorem i jednocześnie jest iterowalny — ma `__next__` i `__iter__`, a `iter(generator)` zwraca jego samego.
-<!--SR:!2025-12-29,12,270-->
+<!--SR:!2026-02-28,32,270-->
 
 ---
 
@@ -251,7 +251,7 @@ Druga pętla `for` nic nie wypisze, bo generator jest wyczerpany. Pętla `for` w
 Czy pętla `for` może wyrzucić `StopIteration` na zewnątrz?
 ?
 Nie. `StopIteration` rzuca sam generator (iterator) w `__next__`, a pętla `for` ten wyjątek łapie wewnętrznie i kończy działanie bez pokazywania błędu.
-<!--SR:!2025-12-28,13,290-->
+<!--SR:!2026-01-31,7,270-->
 
 ---
 
@@ -272,7 +272,7 @@ List comprehension tworzy od razu całą listę wszystkich wyników i trzyma je 
 Kiedy obliczane są wartości w generatorze (np. w generator comprehension)?
 ?
 W generatorze wartości są obliczane leniwie — dopiero w momencie, gdy rzeczywiście po nie sięgamy (`next`, `for`, `list(g)`), a nie w chwili tworzenia generatora.
-<!--SR:!2025-12-27,12,290-->
+<!--SR:!2026-03-03,35,290-->
 
 ---
 
@@ -307,7 +307,7 @@ Nie. Iterowalne to każdy obiekt, który potrafi zwrócić iterator (ma `__iter_
 Co robi `yield` w funkcji generatorowej na poziomie zachowania?
 ?
 `yield` zwraca wartość na zewnątrz i pauzuje wykonanie funkcji w tym miejscu, zachowując stan lokalnych zmiennych. Przy kolejnym `next` lub obrocie pętli `for` działanie wznawiane jest dokładnie od miejsca tuż za `yield`.
-<!--SR:!2025-12-26,8,250-->
+<!--SR:!2026-01-31,4,230-->
 
 ---
 

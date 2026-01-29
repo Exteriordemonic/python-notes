@@ -189,7 +189,7 @@ Gdy sprawdzamy typ obiektu w czasie działania programu.
 **Czym jest `issubclass()`?**
 ?
 Funkcją sprawdzającą, czy jedna klasa dziedziczy po drugiej.
-<!--SR:!2025-12-19,1,230-->
+<!--SR:!2026-01-28,1,210-->
 
 **Po czym się rozpoznaje `issubclass()`?**
 ?

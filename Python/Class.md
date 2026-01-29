@@ -358,12 +358,12 @@ Atrybut klasowy jest wspólny dla wszystkich instancji; atrybut instancji należ
 Gdzie tworzymy atrybuty instancji?
 ?
 W metodzie `__init__` poprzez `self.nazwa`.
-<!--SR:!2025-12-20,11,270-->
+<!--SR:!2026-02-02,6,250-->
 
 Jak odwołać się do atrybutu klasowego wewnątrz instancji?
 ?
 Przez `type(self).nazwa` lub nazwę klasy.
-<!--SR:!2026-01-14,9,270-->
+<!--SR:!2026-02-26,33,290-->
 
 Dlaczego mutowalne atrybuty klasowe są niebezpieczne?
 ?
@@ -383,7 +383,7 @@ Definiuje setter — kontroluje zmianę wartości właściwości zarządzanej pr
 Czy `self` jest słowem kluczowym?
 ?
 Nie, to tylko konwencja nazewnicza — można użyć dowolnej nazwy.
-<!--SR:!2025-12-24,15,290-->
+<!--SR:!2026-02-02,8,270-->
 
 Co reprezentuje `self` w metodzie?
 ?
@@ -413,7 +413,7 @@ Nie — tylko zachowuje się jak funkcja, ale nadal jest instancją klasy.
 Co robi `__repr__`?
 ?
 Zwraca techniczny, jednoznaczny opis obiektu — używany do debugowania.
-<!--SR:!2025-12-27,13,230-->
+<!--SR:!2026-02-03,7,210-->
 
 Co robi `__str__`?
 ?
@@ -428,7 +428,7 @@ Kolejność: instancja → klasa → klasy bazowe zgodnie z MRO.
 Co to jest shadowing atrybutu?
 ?
 Nadpisanie atrybutu klasowego przez stworzenie atrybutu instancji o tej samej nazwie.
-<!--SR:!2025-12-21,12,270-->
+<!--SR:!2026-02-02,6,250-->
 
 ---
 

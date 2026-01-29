@@ -172,7 +172,7 @@ Klasa jest definicją (szablonem), a obiekt konkretną instancją tej definicji.
 Na czym polega **enkapsulacja** w OOP?
 ?
 Na ukrywaniu szczegółów implementacji i udostępnianiu tylko kontrolowanego interfejsu.
-<!--SR:!2025-12-20,2,230-->
+<!--SR:!2026-02-03,7,250-->
 
 ---
 

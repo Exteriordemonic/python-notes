@@ -175,17 +175,17 @@ To jedyne właściwe mentalne modelowanie.
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #unpacking
  
 Co robi rozpakowywanie (unpacking) w Pythonie?
 ?
 Rozdziela elementy sekwencji na osobne zmienne.
-<!--SR:!2025-12-19,14,290-->
+<!--SR:!2026-03-23,57,310-->
 
 Co jest przeciwieństwem rozpakowywania?
 ?
 Pakowanie (packing), czyli łączenie wartości w jedną strukturę.
-<!--SR:!2025-12-24,6,250-->
+<!--SR:!2026-02-14,20,270-->
 
 Jaką rolę pełni gwiazdka (*) w unpackingu?
 ?
@@ -195,37 +195,37 @@ Zbiera „resztę” elementów do listy.
 Jaki typ danych zawsze otrzymuje zmienna z gwiazdką?
 ?
 Listę.
-<!--SR:!2026-01-09,25,270-->
+<!--SR:!2026-04-29,94,290-->
 
 Co dostaje *var, jeśli nie ma żadnych nadwyżkowych elementów?
 ?
 Pustą listę `[]`.
-<!--SR:!2025-12-19,14,290-->
+<!--SR:!2026-03-21,55,310-->
 
 Co się stanie, jeśli elementów jest za mało do przydzielenia wszystkim zmiennym?
 ?
 Python zgłosi `ValueError`.
-<!--SR:!2025-12-27,13,210-->
+<!--SR:!2026-03-05,39,230-->
 
 Dlaczego Python używa listy dla *var zamiast krotki?
 ?
 Bo lista może dynamicznie zbierać dowolną liczbę elementów.
-<!--SR:!2025-12-20,15,290-->
+<!--SR:!2026-03-26,60,310-->
 
 Czy unpacking może występować z obu stron zmiennych (np. a, *b, c)?
 ?
 Tak, gwiazdka może być na początku, w środku lub na końcu.
-<!--SR:!2025-12-19,14,290-->
+<!--SR:!2026-03-22,56,310-->
   
 Co oznacza analogia „gwiazdka jako solenizant”?
 ?
 Że *var dostaje całą nadwyżkę elementów, ale oddaje pierwszeństwo innym.
-<!--SR:!2025-12-21,16,290-->
+<!--SR:!2026-03-30,64,310-->
   
 Kiedy unpacking działa poprawnie?
 ?
 Gdy liczba elementów zgadza się z liczbą zmiennych lub użyto *var.
-<!--SR:!2025-12-21,16,290-->
+<!--SR:!2026-02-03,9,270-->
 
 ---
 

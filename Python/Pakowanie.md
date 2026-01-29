@@ -202,7 +202,7 @@ Pakuje wszystkie argumenty pozycyjne do jednej krotki (`tuple`).
 Co dokładnie pakuje `**kwargs` w definicji funkcji?
 ?
 Pakuje wszystkie argumenty nazwane do słownika (`dict`).
-<!--SR:!2025-12-19,14,290-->
+<!--SR:!2026-03-25,57,310-->
 
 Czy pakowanie może stworzyć listę?
 ?

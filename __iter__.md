@@ -175,14 +175,14 @@ Obiekt może być jednocześnie iteratorem i iterowalny, jeśli `__iter__` zwrac
 Czy lista jest iteratorem?
 ?
 Lista jest iterowalna, ale nie jest iteratorem; iterator dostajemy dopiero przez iter(lista).
-<!--SR:!2025-12-26,12,270-->
+<!--SR:!2026-02-02,6,250-->
 
 ---
 
 Czy mogę użyć iteratora wiele razy w pętli for?
 ?
 Nie, iterator zużywa się; po pierwszym przejściu jest wyczerpany.
-<!--SR:!2025-12-30,15,290-->
+<!--SR:!2026-03-12,44,290-->
 
 ---
 
@@ -196,7 +196,7 @@ Nie, pętla for zawsze działa na iteratorze stworzonym z kolekcji.
 Czy obiekt iterowalny musi mieć metodę **next**?
 ?
 Nie, obiekt iterowalny musi mieć **iter**, **next** znajduje się w iteratorze.
-<!--SR:!2025-12-26,9,250-->
+<!--SR:!2026-02-01,5,230-->
 
 ---
 
@@ -231,7 +231,7 @@ Nie zawsze, jeśli obiekt nie ma **iter**, Python użyje **getitem** z indeksami
 Czy iterowalne i iterator to to samo?
 ?
 Nie, iterowalne tworzy nowy iterator, iterator zwraca kolejne elementy przez next.
-<!--SR:!2025-12-26,12,270-->
+<!--SR:!2026-02-02,6,250-->
 
 ---
 

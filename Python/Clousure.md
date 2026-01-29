@@ -150,19 +150,19 @@ return jest tylko jednym z możliwych sposobów opuszczenia zakresu — nie jedy
 Co przechowuje closure — wartości czy referencje?
 ?
 Closure przechowuje referencje do cell objects, nie skopiowane wartości.
-<!--SR:!2025-12-20,2,190-->
+<!--SR:!2026-01-28,1,170-->
 
 pytanie
 Czy closure powstaje wyłącznie wtedy, gdy funkcja zwraca inną funkcję?
 ?
 Nie, closure powstaje zawsze, gdy funkcja wewnętrzna opuszcza swój zakres i używa zmiennych z outer scope.
-<!--SR:!2025-12-19,11,270-->
+<!--SR:!2026-02-02,6,250-->
 
 pytanie
 Czy closure może działać na zmiennych globalnych?
 ?
 Nie, zmienne globalne nie tworzą closure.
-<!--SR:!2025-12-22,16,290-->
+<!--SR:!2026-04-03,66,310-->
 
 pytanie
 Czy każda funkcja wewnętrzna tworzy closure?
@@ -192,7 +192,7 @@ pytanie
 Jaki jest warunek powstania closure?
 ?
 Funkcja wewnętrzna musi używać zmiennych z outer scope i przetrwać dłużej niż ten scope.
-<!--SR:!2026-01-25,38,290-->
+<!--SR:!2026-05-18,110,290-->
 
 ---
 

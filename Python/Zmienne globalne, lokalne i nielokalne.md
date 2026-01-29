@@ -138,7 +138,7 @@ Dopiero **modyfikacja** zmiennej z wyższego scope’u wymaga jawnego użycia s�
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #Zakres-zmiennych
 
 Co to jest zmienna globalna?
 ?
@@ -204,7 +204,7 @@ LEGB (Local, Enclosing, Global, Built-in)
 Jaka jest kolejność szukania zmiennych w Pythonie (LEGB)?
 ?
 Local → Enclosing (nonlocal) → Global → Builtins.
-<!--SR:!2025-12-19,11,270-->
+<!--SR:!2026-03-09,41,290-->
 
 Co się stanie przy próbie użycia zmiennej z wyższego scope bez deklaracji global lub nonlocal, jeśli próbujemy ją modyfikować?
 ?

@@ -232,17 +232,17 @@ Możemy importować **całą skrzynkę**, wyciągnąć z niej **konkretne narzę
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #modules
 
 Czy moduł w Pythonie to zawsze plik `.py`?
 ?
 Nie, moduł może być też wbudowany lub ładowany dynamicznie, a nie tylko z pliku `.py`.
-<!--SR:!2025-12-25,7,228-->
+<!--SR:!2026-01-31,4,208-->
 
 Czy `import time` ładuje moduł od nowa przy każdym imporcie?
 ?
 Nie, moduł jest ładowany raz i przechowywany w cache w `sys.modules`.
-<!--SR:!2025-12-25,7,250-->
+<!--SR:!2026-02-21,25,270-->
 
 Czy `import` wykonuje kod znajdujący się na top-level modułu?
 ?
@@ -252,67 +252,67 @@ Tak, cały kod na najwyższym poziomie modułu wykonuje się przy pierwszym impo
 Czy `import time` pozwala wywołać `sleep()` bez prefiksu?
 ?
 Nie, funkcje modułu są dostępne przez namespace, np. `time.sleep()`.
-<!--SR:!2025-12-24,7,250-->
+<!--SR:!2026-02-14,18,250-->
 
 Czy `from time import sleep` dodaje `sleep` do namespace bieżącego pliku?
 ?
 Tak, dlatego można wywołać `sleep()` bez użycia `time.`.
-<!--SR:!2025-12-29,11,270-->
+<!--SR:!2026-03-07,39,290-->
 
 Czy alias w imporcie zmienia nazwę modułu globalnie?
 ?
 Nie, alias to tylko lokalna referencja w danym pliku.
-<!--SR:!2026-01-02,16,290-->
+<!--SR:!2026-04-01,64,310-->
 
 Czy dwa pliki mogą korzystać z tego samego modułu bez jego ponownego ładowania?
 ?
 Tak, oba pliki odwołują się do tego samego obiektu modułu w `sys.modules`.
-<!--SR:!2025-12-30,12,270-->
+<!--SR:!2026-01-30,6,250-->
 
 Czy Python zawsze sprawdza bieżący katalog jako pierwszy przy imporcie?
 ?
 Tak, dlatego lokalny plik może nadpisać moduł standardowej biblioteki.
-<!--SR:!2025-12-26,8,250-->
+<!--SR:!2026-02-25,29,270-->
 
 Czy plik `time.py` w projekcie może przechwycić `import time`?
 ?
 Tak, jeśli znajduje się w bieżącym katalogu lub wcześniej na `sys.path`.
-<!--SR:!2025-12-20,5,248-->
+<!--SR:!2026-02-13,17,268-->
 
 Czy `from module import *` importuje tylko funkcje?
 ?
 Nie, importuje wszystko zdefiniowane w `__all__` lub wszystkie publiczne nazwy.
-<!--SR:!2025-12-23,5,230-->
+<!--SR:!2026-02-12,16,250-->
 
 Czy używanie `from module import *` jest dobrą praktyką w produkcyjnym kodzie?
 ?
 Nie, ponieważ prowadzi do konfliktów nazw i utraty czytelności.
-<!--SR:!2025-12-28,10,270-->
+<!--SR:!2026-03-06,38,290-->
 
 Czy `dir(module)` pokazuje tylko funkcje modułu?
 ?
 Nie, pokazuje wszystkie atrybuty modułu, w tym klasy i zmienne.
-<!--SR:!2025-12-29,11,268-->
+<!--SR:!2026-03-11,43,288-->
 
 Czy `help(module)` korzysta z docstringów?
 ?
 Tak, wyświetla dokumentację opartą głównie na docstringach.
-<!--SR:!2025-12-24,6,248-->
+<!--SR:!2026-02-11,15,248-->
 
 Czy `pip install` działa niezależnie od `sys.path`?
 ?
 Nie, paczki instalowane przez pip trafiają do lokalizacji, która znajduje się na `sys.path`.
-<!--SR:!2025-12-21,3,208-->
+<!--SR:!2026-02-05,9,228-->
 
 Czy `sys.modules` ma wpływ na szybkość kolejnych importów?
 ?
 Tak. Python przed wykonaniem importu sprawdza sys.modules; jeśli moduł już tam jest, używa go ponownie bez ponownego ładowania i wykonywania kodu.
-<!--SR:!2025-12-25,8,250-->
+<!--SR:!2026-02-23,27,270-->
 
 Czym jest PYTHONPATH?
 ?
 PYTHONPATH to zmienna środowiskowa, która dodaje własne katalogi do sys.path przy starcie Pythona, zanim sprawdzona zostanie standard library i site-packages.
-<!--SR:!2025-12-19,1,226-->
+<!--SR:!2026-01-29,2,226-->
 
 
 ---

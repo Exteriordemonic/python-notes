@@ -142,7 +142,7 @@ Moim wcześniejszym błędnym wyobrażeniem na temat kontenerów było to, że m
 **Co definiuje obiekt jako kontener w Pythonie?**
 ?
 Implementacja metody `__contains__`.
-<!--SR:!2025-12-22,5,270-->
+<!--SR:!2026-02-10,14,270-->
 
 ---
 

@@ -132,14 +132,14 @@ Oryginalna lista **zostaje nietknięta**, a wynik list comprehension to **nowy o
 **P:** Co robi część `if` w list comprehension?
 ?
 **O:** Filtruje elementy tak, aby do nowej listy trafiły tylko te spełniające warunek.
-<!--SR:!2025-12-21,16,292-->
+<!--SR:!2026-04-02,65,312-->
 
 ---
 
 **P:** Czym list comprehension różni się od pętli?
 ?
 **O:** Robi to samo, ale krócej, czytelniej i często szybciej.
-<!--SR:!2025-12-21,16,292-->
+<!--SR:!2026-02-01,8,272-->
 
 ---
 

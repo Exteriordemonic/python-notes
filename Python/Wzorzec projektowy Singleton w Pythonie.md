@@ -167,7 +167,7 @@ Aby zapewnić jedną wspólną instancję w całej aplikacji — jedno źródło
 Na czym polega działanie Singletona?
 ?
 Przy pierwszym tworzeniu instancji obiekt jest tworzony, a przy każdej kolejnej próbie tworzenia zwracana jest **referencja do pierwszego obiektu**, zamiast tworzyć nowy.
-<!--SR:!2026-01-21,34,288-->
+<!--SR:!2026-05-05,98,288-->
 
 Gdzie przechowywana jest jedyna instancja Singletona
 ?
@@ -178,7 +178,7 @@ Czemu w Singletonie nadpisuje się `__new__` zamiast `__init__`?
 ?
 `__new__` tworzy obiekt — więc tam mamy kontrolę, czy powstanie nowa instancja.
 `__init__` uruchamia się **po stworzeniu obiektu**, więc jest już za późno, by blokować mnożenie instancji.
-<!--SR:!2026-01-22,35,272-->
+<!--SR:!2026-06-09,133,292-->
 
 ---
 

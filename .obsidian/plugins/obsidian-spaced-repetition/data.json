@@ -1,7 +1,13 @@
 {
   "settings": {
     "flashcardTags": [
-      "#flashcards"
+      "#flashcards",
+      "#unpacking",
+      "#packing",
+      "#OOP",
+      "#Zakres-zmiennych",
+      "#Dekoratory",
+      "#modules"
     ],
     "convertFoldersToDecks": false,
     "burySiblingCards": false,

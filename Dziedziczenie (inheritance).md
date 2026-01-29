@@ -120,12 +120,12 @@ Dziedziczenie w Pythonie polega na dynamicznym wyszukiwaniu metod w hierarchii k
 Czym jest dziedziczenie w Pythonie?
 ?
 Dziedziczenie to mechanizm, w którym klasa używa własnych metod, a jeśli ich nie ma, Python wyszukuje je w klasach nadrzędnych zgodnie z MRO.
-<!--SR:!2025-12-21,3,250-->
+<!--SR:!2026-01-29,2,230-->
 
 Po czym rozpoznajemy dziedziczenie w Pythonie?
 ?
 Po tym, że klasa jest zdefiniowana na podstawie innej klasy i posiada ustaloną kolejność MRO.
-<!--SR:!2025-12-19,1,230-->
+<!--SR:!2026-01-29,2,230-->
 
 Kiedy używamy dziedziczenia w Pythonie?  
 ?  
@@ -150,7 +150,7 @@ MRO (Method Resolution Order) to kolejność, w jakiej Python przeszukuje klasy 
 Kiedy Python ustala MRO?
 ?
 MRO jest ustalane w momencie tworzenia klasy, a nie instancji.
-<!--SR:!2025-12-22,4,270-->
+<!--SR:!2026-01-28,1,230-->
 
 Co robi super() w kontekście dziedziczenia?  
 ?  

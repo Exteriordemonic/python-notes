@@ -210,7 +210,7 @@ Tak. Import submodułu wykonuje jego kod top-level (globalny) przy pierwszym imp
 Co tak naprawdę robi `import pkg.mod`?
 ?
 Ładuje pakiet `pkg`, potem ładuje submoduł `pkg.mod` i udostępnia go jako atrybut `pkg.mod`.
-<!--SR:!2025-12-22,4,210-->
+<!--SR:!2026-02-06,9,210-->
 
 Czym jest `sys.path`?
 ?
@@ -220,7 +220,7 @@ To lista katalogów (ścieżek), w których Python szuka modułów i pakietów p
 Czy `sys.path` przechowuje „listę zainstalowanych pakietów”?
 ?
 Nie. `sys.path` to miejsca do przeszukania; informacje o już załadowanych modułach są w `sys.modules`.
-<!--SR:!2025-12-22,5,230-->
+<!--SR:!2026-02-09,12,230-->
 
 Po co jest `sys.modules`?
 ?
@@ -265,12 +265,12 @@ To lista ścieżek, w których Python szuka submodułów danego pakietu (`pkg.so
 Po co istnieje `__path__`?
 ?
 Pozwala pakietowi mieć submoduły w wielu lokalizacjach (ważne m.in. dla namespace packages).
-<!--SR:!2025-12-22,4,210-->
+<!--SR:!2026-02-05,9,210-->
 
 Czy folder bez `__init__.py` może być pakietem?
 ?
 Tak, jako namespace package (Python 3.3+), ale wtedy nie masz miejsca na kod inicjalizacyjny w `__init__.py`.
-<!--SR:!2025-12-27,9,265-->
+<!--SR:!2026-02-20,23,265-->
 
 ---
 
