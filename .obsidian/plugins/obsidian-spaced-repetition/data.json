@@ -7,7 +7,11 @@
       "#OOP",
       "#Zakres-zmiennych",
       "#Dekoratory",
-      "#modules"
+      "#modules",
+      "#Wyjątki",
+      "#comprehension",
+      "#generatory",
+      "#pliki"
     ],
     "convertFoldersToDecks": false,
     "burySiblingCards": false,

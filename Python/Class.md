@@ -368,7 +368,7 @@ Przez `type(self).nazwa` lub nazwę klasy.
 Dlaczego mutowalne atrybuty klasowe są niebezpieczne?
 ?
 Bo wszystkie instancje współdzielą tę samą listę/dict/set i modyfikacje wpływają na wszystkie obiekty.
-<!--SR:!2026-01-08,24,270-->
+<!--SR:!2026-04-07,67,270-->
 
 Do czego służy dekorator `@property`?
 ?
@@ -428,7 +428,7 @@ Kolejność: instancja → klasa → klasy bazowe zgodnie z MRO.
 Co to jest shadowing atrybutu?
 ?
 Nadpisanie atrybutu klasowego przez stworzenie atrybutu instancji o tej samej nazwie.
-<!--SR:!2026-02-02,6,250-->
+<!--SR:!2026-02-17,15,250-->
 
 ---
 

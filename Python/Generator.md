@@ -225,12 +225,12 @@ Okej, więc moimi błędnymi założeniami było to, że przy użyciu pętli `fo
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #generatory
 
 Czym generator różni się od zwykłej funkcji z `return`?
 ?
 Zwykła funkcja z `return` zwraca wartość i kończy działanie, tracąc cały stan. Funkcja generatorowa z `yield` zwraca wartość, ale tylko pauzuje — zachowuje swój stan i wznawia działanie przy kolejnym `next` lub obrocie pętli `for`.
-<!--SR:!2025-12-20,2,250-->
+<!--SR:!2026-02-04,5,250-->
 
 ---
 
@@ -244,7 +244,7 @@ Nie. Obiekt generatora sam jest iteratorem i jednocześnie jest iterowalny — m
 Co zrobi druga pętla `for` na już wyczerpanym generatorze?
 ?
 Druga pętla `for` nic nie wypisze, bo generator jest wyczerpany. Pętla `for` wewnętrznie łapie wyjątek `StopIteration` i po prostu kończy iterację, bez błędu na ekranie.
-<!--SR:!2025-12-25,7,270-->
+<!--SR:!2026-02-06,4,250-->
 
 ---
 
@@ -300,7 +300,7 @@ Nie. Po rzuceniu `StopIteration` generator jest wyczerpany i nie da się go uży
 Czy każde iterowalne w Pythonie jest generatorem?
 ?
 Nie. Iterowalne to każdy obiekt, który potrafi zwrócić iterator (ma `__iter__`), np. lista, string, dict. Generator jest konkretnym rodzajem iteratora tworzonym przez funkcję generatorową lub generator comprehension.
-<!--SR:!2025-12-23,9,270-->
+<!--SR:!2026-02-07,5,250-->
 
 ---
 

@@ -150,7 +150,7 @@ return jest tylko jednym z możliwych sposobów opuszczenia zakresu — nie jedy
 Co przechowuje closure — wartości czy referencje?
 ?
 Closure przechowuje referencje do cell objects, nie skopiowane wartości.
-<!--SR:!2026-01-28,1,170-->
+<!--SR:!2026-01-31,1,150-->
 
 pytanie
 Czy closure powstaje wyłącznie wtedy, gdy funkcja zwraca inną funkcję?
@@ -174,13 +174,13 @@ pytanie
 Czy różne wywołania funkcji zewnętrznej współdzielą ten sam closure?
 ?
 Nie, każde wywołanie tworzy własny, niezależny plecak (closure).
-<!--SR:!2026-01-22,38,290-->
+<!--SR:!2026-05-20,110,290-->
 
 pytanie
 Czy `nonlocal` jest potrzebne do odczytu zmiennej z closure?
 ?
 Nie, jest potrzebne tylko do jej modyfikacji.
-<!--SR:!2025-12-22,16,290-->
+<!--SR:!2026-04-04,64,310-->
 
 pytanie
 Jak closure zachowuje zmienne po zakończeniu działania funkcji zewnętrznej?

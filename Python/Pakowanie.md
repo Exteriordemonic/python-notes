@@ -197,7 +197,7 @@ W przypisaniu `*` zbiera resztę, a w wywołaniu funkcji `*` rozpakowuje element
 Co dokładnie pakuje `*args` w definicji funkcji?
 ?
 Pakuje wszystkie argumenty pozycyjne do jednej krotki (`tuple`).
-<!--SR:!2026-01-11,27,270-->
+<!--SR:!2026-05-12,102,290-->
 
 Co dokładnie pakuje `**kwargs` w definicji funkcji?
 ?
@@ -227,7 +227,7 @@ Rozpakowywanie — dzielenie jednej struktury na wiele zmiennych.
 Dlaczego rozpakowywanie może dać błąd „too many values to unpack”?
 ?
 Bo liczba zmiennych po lewej musi zgadzać się z liczbą elementów po prawej — chyba że używasz `*`.
-<!--SR:!2025-12-20,15,290-->
+<!--SR:!2026-03-28,57,310-->
 
 ---
 

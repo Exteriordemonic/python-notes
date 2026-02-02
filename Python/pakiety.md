@@ -200,12 +200,12 @@ Kropka w `from . import x` to nie „obecny katalog na dysku” w sensie CWD, ty
 Czym różni się `from pkg import mod` od `from pkg.mod import func`?
 ?
 `from pkg import mod` importuje submoduł jako obiekt `mod`; żeby importować funkcję, użyj `from pkg.mod import func`.
-<!--SR:!2026-01-03,16,290-->
+<!--SR:!2026-03-17,46,290-->
 
 Czy `from pkg import mod` wykonuje kod z `pkg/mod.py`?
 ?
 Tak. Import submodułu wykonuje jego kod top-level (globalny) przy pierwszym imporcie.
-<!--SR:!2025-12-20,2,230-->
+<!--SR:!2026-02-04,5,230-->
 
 Co tak naprawdę robi `import pkg.mod`?
 ?
@@ -250,7 +250,7 @@ Uruchamia moduł jako część pakietu, ustawiając poprawnie kontekst importów
 Do czego służy `__all__`?
 ?
 Kontroluje, co zostanie zaimportowane przez `from module import *` (nie wpływa na zwykły `import module`).
-<!--SR:!2025-12-25,7,250-->
+<!--SR:!2026-02-23,24,270-->
 
 Czy `__all__` „ukrywa” rzeczy przed normalnym importem?
 ?
@@ -260,7 +260,7 @@ Nie. Nadal można importować nazwy bezpośrednio; `__all__` dotyczy głównie `
 Czym jest `__path__` w pakiecie?
 ?
 To lista ścieżek, w których Python szuka submodułów danego pakietu (`pkg.something`).
-<!--SR:!2025-12-20,5,245-->
+<!--SR:!2026-02-02,3,225-->
 
 Po co istnieje `__path__`?
 ?

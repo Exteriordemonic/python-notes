@@ -1,3 +1,9 @@
+---
+sr-due: 2026-02-01
+sr-interval: 2
+sr-ease: 249
+---
+
 aliases: []  
 tags: [theory, cs, programming]  
 sr-due: true

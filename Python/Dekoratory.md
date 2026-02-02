@@ -168,7 +168,7 @@ Funkcja opakowująca, która rozszerza działanie innej funkcji bez zmiany jej k
 **Co zwraca dekorator?
 ?
 Obiekt zastępujący oryginalną funkcję (najczęściej wrapper).**
-<!--SR:!2026-01-29,3,190-->
+<!--SR:!2026-02-04,2,170-->
 
 **Kiedy wykonuje się dekorator?
 ?
@@ -208,7 +208,7 @@ Funkcję, metodę lub klasę.
 **Czy dekorator musi zwrócić funkcję?
 ?
 Nie — musi zwrócić _coś_, co zastąpi oryginał (funkcja, klasa, callable).**
-<!--SR:!2026-02-01,6,250-->
+<!--SR:!2026-02-22,20,270-->
 
 ---
 

@@ -1,3 +1,9 @@
+---
+sr-due: 2026-02-03
+sr-interval: 3
+sr-ease: 253
+---
+
 aliases: []  
 tags: [theory, cs, programming]  
 sr-due: true
@@ -21,7 +27,13 @@ Krótko: to niekompletna klasa, którą wykorzystujesz do wymuszenia zachowań w
 ## 🔧 Jak to działa?
 Python udostępnia moduł `abc`, który pozwala definiować klasy abstrakcyjne:
 
-`from abc import ABC, abstractmethod  class Animal(ABC):     @abstractmethod     def sound(self):         pass`
+```python
+from abc import ABC, abstractmethod
+class Animal(ABC):
+	@abstractmethod    
+	def sound(self):         
+		pass
+```
 
 - `ABC` — klasa bazowa (metaklasa) dla klas abstrakcyjnych.
     
@@ -112,36 +124,41 @@ Absctart class to taka wzór instrukcji, nie mówi Ci jak ma coś działać tylk
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #OOP
 
-Na czym polega rola modułu **abc** w Pythonie?  
-?  
+Na czym polega rola modułu **abc** w Pythonie?
+?
 Moduł **abc** dostarcza mechanizm do definiowania klas abstrakcyjnych, umożliwiając egzekwowanie kontraktu poprzez klasę `ABC` oraz dekorator `@abstractmethod`.
+<!--SR:!2026-02-03,1,233-->
 
 ---
 
-Czym mentalnie jest **klasa abstrakcyjna (ABC)**?  
-?  
+Czym mentalnie jest **klasa abstrakcyjna (ABC)**?
+?
 Klasa abstrakcyjna definiuje **kontrakt** dla klas potomnych — określa, jakie metody muszą istnieć, ale nie narzuca ich konkretnej implementacji.
+<!--SR:!2026-02-05,3,253-->
 
 ---
 
-Co sprawia, że klasa jest uznawana przez Pythona za **abstrakcyjną**?  
-?  
+Co sprawia, że klasa jest uznawana przez Pythona za **abstrakcyjną**?
+?
 Klasa jest abstrakcyjna tylko wtedy, gdy posiada **niezaimplementowane metody oznaczone `@abstractmethod`**; samo dziedziczenie po `ABC` nie wystarcza.
+<!--SR:!2026-02-03,1,233-->
 
 ---
 
-Dlaczego nie można tworzyć instancji klasy abstrakcyjnej?  
-?  
+Dlaczego nie można tworzyć instancji klasy abstrakcyjnej?
+?
 Ponieważ Python egzekwuje kontrakt — **instancję można utworzyć dopiero wtedy, gdy wszystkie metody abstrakcyjne zostaną zaimplementowane**.
+<!--SR:!2026-02-06,4,273-->
 
 ---
 
-Na czym polega kluczowa różnica mentalna między **ABC a duck typingiem**?  
-?  
-Duck typing sprawdza jedynie **zachowanie w danym miejscu** („czy obiekt ma tę metodę”),  
+Na czym polega kluczowa różnica mentalna między **ABC a duck typingiem**?
+?
+Duck typing sprawdza jedynie **zachowanie w danym miejscu** („czy obiekt ma tę metodę”),
 natomiast ABC definiuje **formalny kontrakt i rolę obiektu**, wymagając spełnienia całego zestawu metod.
+<!--SR:!2026-02-05,3,253-->
 
 ---
 

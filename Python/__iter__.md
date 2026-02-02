@@ -210,14 +210,14 @@ Nie, prawdziwy iterator musi mieć zarówno **next** jak i **iter** zwracającą
 Czy generator jest iteratorem?
 ?
 Generator jest iteratorem i iterowalny, ponieważ iter(generator) zwraca jego samego.
-<!--SR:!2025-12-29,14,290-->
+<!--SR:!2026-03-14,40,290-->
 
 ---
 
 Czy obiekt może być jednocześnie iteratorem i iterowalnym?
 ?
 Tak, jeśli **iter** zwraca self, ale wtedy można przejść po nim tylko raz.
-<!--SR:!2026-01-11,6,250-->
+<!--SR:!2026-02-13,14,250-->
 
 ---
 

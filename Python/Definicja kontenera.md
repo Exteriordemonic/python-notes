@@ -170,7 +170,7 @@ Nie. Jest iterowalny, ale nie wspiera `__contains__`.
 **Czy `str` jest kontenerem?**
 ?
 Tak — posiada `__contains__` i `__iter__`.
-<!--SR:!2025-12-27,12,290-->
+<!--SR:!2026-03-06,35,290-->
 
 ---
 

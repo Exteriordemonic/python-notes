@@ -113,12 +113,12 @@ Oryginalna lista **zostaje nietknięta**, a wynik list comprehension to **nowy o
 
 ---
 
-## 🗂 Fiszki (SRS) #flashcards 
+## 🗂 Fiszki (SRS) #flashcards #comprehension
 
 **P:** Co to jest list comprehension?
 ?
 **O:** Zwięzły sposób tworzenia nowej listy poprzez iterację, opcjonalne filtrowanie i transformację elementów.
-<!--SR:!2025-12-20,15,290-->
+<!--SR:!2026-03-15,44,290-->
 
 ---
 
@@ -140,6 +140,11 @@ Oryginalna lista **zostaje nietknięta**, a wynik list comprehension to **nowy o
 ?
 **O:** Robi to samo, ale krócej, czytelniej i często szybciej.
 <!--SR:!2026-02-01,8,272-->
+
+Dlaczego list comprehension bywa szybszy niż klasyczna pętla `for` z `append`?
+?
+Ponieważ w **CPythonie** list comprehension jest wykonywany przez **zoptymalizowany kod w C**, co redukuje liczbę operacji na poziomie Pythona.
+
 
 ---
 

@@ -165,7 +165,7 @@ Obiekt to instancja klasy, która posiada **tożsamość, stan i zachowanie**.
 Czym różni się **klasa** od obiektu?
 ?
 Klasa jest definicją (szablonem), a obiekt konkretną instancją tej definicji.
-<!--SR:!2025-12-19,4,270-->
+<!--SR:!2026-02-15,16,290-->
 
 ---
 
@@ -179,7 +179,7 @@ Na ukrywaniu szczegółów implementacji i udostępnianiu tylko kontrolowanego i
 Czy **polimorfizm** wymaga dziedziczenia?
 ?
 Nie, polimorfizm polega na wspólnym interfejsie zachowania, a nie na relacji dziedziczenia.
-<!--SR:!2025-12-20,2,230-->
+<!--SR:!2026-02-06,7,250-->
 
 ---
 
@@ -228,7 +228,7 @@ Obiekt OOP łączy dane z zachowaniem, a struktura danych przechowuje tylko dane
 Czy obiekt bez metod jest pełnoprawnym obiektem OOP?
 ?
 Nie do końca — jest raczej pojemnikiem na dane (anemic model) niż obiektem z zachowaniem.
-<!--SR:!2025-12-19,1,210-->
+<!--SR:!2026-01-31,1,190-->
 
 ---
 

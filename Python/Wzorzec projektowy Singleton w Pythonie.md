@@ -157,12 +157,12 @@ W rzeczywistości obiekt powstaje tylko raz — a każda kolejna próba jego utw
 Co to jest wzorzec Singleton?
 ?
 To wzorzec projektowy, który gwarantuje, że klasa ma **tylko jedną instancję**, a każdy dostęp do niej zwraca **ten sam obiekt**.
-<!--SR:!2026-01-19,32,250-->
+<!--SR:!2026-05-22,112,270-->
 
 Dlaczego stosuje się Singleton?
 ?
 Aby zapewnić jedną wspólną instancję w całej aplikacji — jedno źródło prawdy dla elementów takich jak konfiguracja, logger, połączenie do bazy czy cache.
-<!--SR:!2026-01-04,26,288-->
+<!--SR:!2026-04-15,75,288-->
 
 Na czym polega działanie Singletona?
 ?
