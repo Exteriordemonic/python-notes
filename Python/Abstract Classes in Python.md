@@ -143,14 +143,14 @@ Klasa abstrakcyjna definiuje **kontrakt** dla klas potomnych — określa, jakie
 Co sprawia, że klasa jest uznawana przez Pythona za **abstrakcyjną**?
 ?
 Klasa jest abstrakcyjna tylko wtedy, gdy posiada **niezaimplementowane metody oznaczone `@abstractmethod`**; samo dziedziczenie po `ABC` nie wystarcza.
-<!--SR:!2026-02-03,1,233-->
+<!--SR:!2026-02-27,1,213-->
 
 ---
 
 Dlaczego nie można tworzyć instancji klasy abstrakcyjnej?
 ?
 Ponieważ Python egzekwuje kontrakt — **instancję można utworzyć dopiero wtedy, gdy wszystkie metody abstrakcyjne zostaną zaimplementowane**.
-<!--SR:!2026-02-06,4,273-->
+<!--SR:!2026-03-13,15,293-->
 
 ---
 
